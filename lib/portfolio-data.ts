@@ -41,7 +41,7 @@ export const portfolioData: PortfolioContent = {
     {
       id: "project-1",
       title: "n8n Video Automation",
-      description: "Automated video creation & posting for social media platforms",
+      description: "Automated video creation & posting for social media platforms for the handmade product",
       icon: "🎬",
       details: [
         "Automated video generation and scheduling",
