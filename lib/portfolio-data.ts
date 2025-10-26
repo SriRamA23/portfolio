@@ -105,7 +105,7 @@ export const portfolioData: PortfolioContent = {
     {
   id: "exp-2",
   title: "Intern",
-  description: "Gained hands-on exposure to server operations, RFID systems, and port monitoring technologies",
+  description: "Gained hands-on exposure to server operations, RFID systems, networking and port monitoring technologies",
   icon: "🌐",
   details: [
     "Explored server rooms and learned about server management and networking",
