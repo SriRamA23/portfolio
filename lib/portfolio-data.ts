@@ -244,7 +244,7 @@ export const portfolioData: PortfolioContent = {
     description: "NPTEL certification on Python programming fundamentals",
     icon: "🐍",
     details: [
-      "Python basics and syntax",
+      "Python basics",
       "Data structures and problem-solving",
       "Building simple Python applications",
     ],
@@ -295,13 +295,12 @@ export const helpText = `
 
 Available Commands:
   1 or 'about'         → Show executive summary and contact info
-  2 or 'projects'      → Display all projects as 3D cards
+  2 or 'projects'      → Display all projects
   3 or 'experience'    → Show professional experiences
   4 or 'achievements'  → Display awards and achievements
   5 or 'education'     → List educational background
   6 or 'certifications'→ Show certification courses
   7 or 'all'           → Show everything
-  0 or 'help'          → Display this help message
 
 Navigation:
   ↑ ↓                  → Navigate command history
