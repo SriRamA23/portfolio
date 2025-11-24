@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Sri Ram A - Developer Portfolio",
-    description: "Interactive developer portfolio with terminal interface",
+    description: "Interactive developer portfolio with terminal interface for the interaction",
   },
   viewport: "width=device-width, initial-scale=1, maximum-scale=5",
   robots: "index, follow",
