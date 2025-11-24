@@ -8,7 +8,7 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Sri Ram A - Developer Portfolio",
   description:
-    "Interactive developer portfolio with terminal interface. Explore projects, experience, and achievements.",
+    "Interactive developer portfolio with terminal interface. Explore projects, Education, Experience, Certifications and Achievements.",
   keywords: ["portfolio", "developer", "full-stack", "terminal", "interactive"],
   authors: [{ name: "Sri Ram A" }],
   creator: "Sri Ram A",
