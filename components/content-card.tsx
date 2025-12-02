@@ -1,12 +1,9 @@
 "use client"
-
 import type { ContentCard as ContentCardType } from "@/lib/portfolio-data"
-
 interface ContentCardProps {
   card: ContentCardType
   index: number
 }
-
 export function ContentCard({ card, index }: ContentCardProps) {
   return (
     <div
@@ -48,7 +45,6 @@ export function ContentCard({ card, index }: ContentCardProps) {
           )}
         </div>
       </div>
-
       <div className="absolute bottom-0 left-0 h-1 bg-gradient-to-r from-[var(--neon-cyan)] to-[var(--neon-blue)] w-0 group-hover:w-full transition-all duration-300" />
     </div>
   )
