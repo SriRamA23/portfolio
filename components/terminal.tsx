@@ -102,7 +102,7 @@ export function Terminal({ onCommand, output }: TerminalProps) {
           <div className="terminal-dot bg-yellow-500" />
           <div className="terminal-dot bg-green-500" />
         </div>
-        <span className="ml-auto text-xs text-[var(--terminal-text)]/60 font-mono">sri@portfolio ~ %</span>
+        <span className="ml-auto text-xs text-[var(--terminal-text)]/60 font-mono">Sri@portfolio ~ %</span>
       </div>
 
       <div className="terminal-help-section flex-shrink-0 border-b border-[var(--neon-cyan)]/20 p-3 md:p-4 bg-[var(--terminal-bg)]/50 backdrop-blur-sm">
