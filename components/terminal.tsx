@@ -16,6 +16,7 @@ interface TerminalEntry {
   timestamp: string
 }
 
+
 export function Terminal({ onCommand, output }: TerminalProps) {
   const [input, setInput] = useState("")
   const [history, setHistory] = useState<string[]>([])
@@ -150,7 +151,7 @@ export function Terminal({ onCommand, output }: TerminalProps) {
         )}
       </div>
 
-      {/* Terminal Input */}
+      {/* Terminal sstyle Input */}
       <form onSubmit={handleSubmit} className="border-t border-[var(--neon-cyan)]/20 p-3 md:p-4 flex-shrink-0">
         <div className="flex items-center gap-2 font-mono text-sm">
           <span className="text-[var(--neon-cyan)]">$</span>
