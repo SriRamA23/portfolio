@@ -10,8 +10,8 @@ export function ContentCard({ card, index }: ContentCardProps) {
       className="card-3d group relative overflow-hidden animate-slide-up"
       style={{
         animationDelay: `${index * 0.1}s`,
-      }}
-    >
+      }}>
+      
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
         <div className={`absolute inset-0 bg-gradient-to-br ${card.color || "from-blue-500/10 to-cyan-500/10"}`} />
       </div>
