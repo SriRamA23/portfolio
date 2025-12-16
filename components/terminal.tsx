@@ -139,8 +139,7 @@ export function Terminal({ onCommand, output }: TerminalProps) {
                       className="text-[var(--terminal-text)]/80 animate-typewriter"
                       style={{
                         animationDelay: `${i * 0.02}s`,
-                      }}
-                    >
+                      }} >
                       {line || "\u00A0"}
                     </div>
                   ))}
