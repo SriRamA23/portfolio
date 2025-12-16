@@ -26,7 +26,6 @@ export function ContentCard({ card, index }: ContentCardProps) {
             {card.title}
           </h3>
           <p className="text-sm text-foreground/80 mb-3 line-clamp-2">{card.description}</p>
-
           {card.details && card.details.length > 0 && (
             <ul className="space-y-1">
               {card.details.map((detail, i) => (
