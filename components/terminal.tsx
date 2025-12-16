@@ -170,7 +170,7 @@ export function Terminal({ onCommand, output }: TerminalProps) {
         </div>
       </form>
 
-      {/* Command History Indicator */}
+      {/* Command History  */}
       {history.length > 0 && (
         <div className="border-t border-[var(--neon-cyan)]/10 px-3 md:px-4 py-2 text-xs text-[var(--terminal-text)]/40 font-mono animate-fade-in flex-shrink-0">
           {history.length} command{history.length !== 1 ? "s" : ""} Executed • Use ↑↓ to navigate history
