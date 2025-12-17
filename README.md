@@ -59,7 +59,7 @@ npm run dev
 | `achievements` | `4` | Display awards and achievements |
 | `education` | `5` | List educational background |
 | `certifications` | `6` | Show certification courses |
-| `help` | `0` | Display help message |
+| `help` | `0` | Display help message | 
 
 ### Navigation Tips
 
