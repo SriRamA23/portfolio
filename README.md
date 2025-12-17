@@ -6,7 +6,6 @@
 A modern, interactive developer portfolio built with Next.js, React, and Framer Motion. Features a terminal-based interface for exploring projects, experience, and achievements.
 
 ## Features
-
 - **Terminal Interface**: Command-based navigation system
 - **3D Animations**: Smooth, engaging animations powered by Framer Motion
 - **Responsive Design**: Optimized for mobile, tablet, and desktop
@@ -15,7 +14,6 @@ A modern, interactive developer portfolio built with Next.js, React, and Framer 
 - **Real-time Feedback**: Instant visual feedback for all interactions
 
 ## Tech Stack
-
 - **Framework**: Next.js 15+ with App Router
 - **Styling**: Tailwind CSS v4
 - **Animations**: Framer Motion
@@ -30,7 +28,6 @@ A modern, interactive developer portfolio built with Next.js, React, and Framer 
 - npm or yarn
 
 ### Installation
-
 1. Clone the repository:
 \`\`\`bash
 git clone <repository-url>
@@ -62,7 +59,6 @@ npm run dev
 | `help` | `0` | Display help message | 
 
 ### Navigation Tips
-
 - Use **↑** and **↓** arrow keys to navigate command history
 - Type command name or number and press **Enter**
 - Commands are case-insensitive
