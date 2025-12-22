@@ -7,7 +7,6 @@ export interface ContentCard {
   link?: string
   color?: string
 }
-
 export interface PortfolioContent {
   about: ContentCard[]
   projects: ContentCard[]
