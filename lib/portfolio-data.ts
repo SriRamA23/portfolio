@@ -285,7 +285,6 @@ export const commands = {
   all: "all",
   help: "help",
 } as const
-
 export const helpText = `
 ╔════════════════════════════════════════════════════════════╗
 ║           Welcome to Sri Ram A's Portfolio                 ║
