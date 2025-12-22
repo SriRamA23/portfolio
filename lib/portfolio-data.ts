@@ -16,7 +16,6 @@ export interface PortfolioContent {
   certifications: ContentCard[]
   all: ContentCard[]
 }
-
 export const portfolioData: PortfolioContent = {
   about: [
     {
