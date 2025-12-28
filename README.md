@@ -4,7 +4,6 @@
 # Sri Ram A - Interactive Developer Portfolio
 
 A modern, interactive developer portfolio built with Next.js, React, and Framer Motion. Features a terminal-based interface for exploring projects, experience, and achievements.
-
 ## Features
 - **Terminal Interface**: Command-based navigation system
 - **3D Animations**: Smooth, engaging animations powered by Framer Motion
@@ -12,7 +11,6 @@ A modern, interactive developer portfolio built with Next.js, React, and Framer 
 - **Dark Theme**: Eye-friendly dark mode with neon accents
 - **Command History**: Navigate through previous commands with arrow keys
 - **Real-time Feedback**: Instant visual feedback for all interactions
-
 ## Tech Stack
 - **Framework**: Next.js 15+ with App Router
 - **Styling**: Tailwind CSS v4
