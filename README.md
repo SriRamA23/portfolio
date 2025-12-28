@@ -76,14 +76,12 @@ npm run dev
 ## Customization
 
 ### Update Portfolio Content
-
 Edit `lib/portfolio-data.ts` to customize:
 - Personal information in the `about` section
 - Projects, experience, education, etc.
 - Command mappings
 
 ### Modify Theme
-
 Update CSS variables in `app/globals.css`:
 - `--neon-cyan`: Primary accent color
 - `--neon-blue`: Secondary accent color
@@ -91,20 +89,17 @@ Update CSS variables in `app/globals.css`:
 - `--foreground`: Text color
 
 ### Add New Sections
-
 1. Add new section to `PortfolioContent` interface in `lib/portfolio-data.ts`
 2. Add command mapping in `commands` object
 3. Add content data to `portfolioData` object
 
 ## Performance Optimizations
-
 - Server-side rendering for fast initial load
 - Optimized animations with GPU acceleration
 - Responsive images and lazy loading
 - Minimal JavaScript bundle size
 
 ## Accessibility
-
 - Semantic HTML structure
 - ARIA labels and roles
 - Keyboard navigation support
@@ -125,18 +120,15 @@ npm run start
 \`\`\`
 
 ### Environment Variables
-
 No environment variables required for basic deployment.
 
 ## Browser Support
-
 - Chrome/Edge 90+
 - Firefox 88+
 - Safari 14+
 - Mobile browsers (iOS Safari, Chrome Mobile)
 
 ## License
-
 This project is open source and available under the MIT License.
 
 ## Contact
@@ -145,6 +137,4 @@ This project is open source and available under the MIT License.
 - Phone: +91 8946062492
 
 ---
-
-Built with ❤️ using Next.js and Framer Motion
 >>>>>>> d7612c7 (initial commit)
