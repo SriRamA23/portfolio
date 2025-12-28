@@ -19,12 +19,9 @@ A modern, interactive developer portfolio built with Next.js, React, and Framer 
 - **Deployment**: Vercel
 
 ## Getting Started
-
 ### Prerequisites
-
 - Node.js 18+ 
 - npm or yarn
-
 ### Installation
 1. Clone the repository:
 \`\`\`bash
