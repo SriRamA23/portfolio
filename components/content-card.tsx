@@ -18,7 +18,6 @@ export function ContentCard({ card, index }: ContentCardProps) {
         <div className="text-4xl flex-shrink-0 transition-transform duration-300 group-hover:scale-110 group-hover:rotate-12">
           {card.icon}
         </div>
-
         <div className="flex-1 min-w-0">
           <h3 className="text-lg font-semibold text-[var(--neon-cyan)] mb-2 truncate group-hover:text-white transition-colors">
             {card.title}
