@@ -32,8 +32,7 @@ export function ContentCard({ card, index }: ContentCardProps) {
                   className="text-xs text-foreground/60 flex items-start gap-2 animate-typewriter"
                   style={{
                     animationDelay: `${index * 0.1 + i * 0.06}s`,
-                  }}
-                >
+                  }}>
                   <span className="text-[var(--neon-blue)] mt-1 flex-shrink-0">▸</span>
                   <span className="group-hover:text-foreground/80 transition-colors">{detail}</span>
                 </li>
