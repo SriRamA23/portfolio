@@ -306,7 +306,7 @@
     box-shadow: 0 0 30px rgba(102, 153, 255, 0.2), inset 0 0 20px rgba(102, 153, 255, 0.1);
     transform: translateY(-4px);
   }
-
+  
   @media (max-width: 1024px) {
     .terminal-container {
       max-height: none;
