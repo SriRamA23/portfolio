@@ -8,14 +8,12 @@ interface TerminalProps {
   onCommand: (command: string) => void
   output: string
 }
-
 interface TerminalEntry {
   id: string
   type: "command" | "output"
   content: string
   timestamp: string
 }
-
 
 export function Terminal({ onCommand, output }: TerminalProps) {
   const [input, setInput] = useState("")
